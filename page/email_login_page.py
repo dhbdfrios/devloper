@@ -9,4 +9,4 @@ class EmailLoginPage(BaseAction):
         self.input_edit_content(base.email_login_page_edit_email,username)
         self.input_edit_content(base.email_login_page_edit_pwd,password)
         self.click_element(base.email_login_page_btn_login)
-		print("aaa")
+	print("aaa")
